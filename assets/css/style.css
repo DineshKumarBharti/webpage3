@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background-color: #022d7c;
+    justify-content: space-between;
+
+}
