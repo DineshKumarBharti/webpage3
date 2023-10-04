@@ -91,6 +91,33 @@ header{
 }
 /* /feature section end */
 
+/* about us section satrt */
+.about{
+    width: 100%;
+    height:auto;
+    padding: 60px;
+    color:#fff;
+    text-align: center;
+    background-color: #022d7c;
+}
+.about h2{
+    font-size: 33px;
+    margin: 7px;
+}
+.about p{
+    padding:5px 300px;
+}
+.about button{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px 100px;
+    background-color: #022d7c;
+
+}
+/* /about us section end */
+
 
 
     
