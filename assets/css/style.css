@@ -3,8 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* header section start */
 
+/* header section start */
 header{
     width: 100vw;
     height: 50px;
@@ -15,7 +15,8 @@ header{
     background-color: #022d7c;
     justify-content: space-between;
 }
-/* header section end */
+/* /header section end */
+
 /*banner section start */
 .banner{
     width: 100%;
@@ -30,23 +31,22 @@ header{
     background-size: cover;
 }
 .banner h1{
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 100px ;
     font-size: 50px;
     font-weight: normal;
-    
 }
 .banner h1 span{
     display: block;
     font-size: 77px;
     font-weight:600;
 }
-
 .banner aside {
-    margin:50px 20px;
-    padding: 0px 30px;
+    padding: 20px  ;
+    margin:60px 0px;
+/* padding: 0px 30px; */
     border-radius: 7px;
-    line-height:50px;
+    /* line-height:50px; */
     text-align: center;
     background-color:#022d7c;
 }
@@ -77,7 +77,6 @@ header{
     text-align: center;
     font-size: 40px;
     margin-bottom: 7px;
-    
 }
 .feature div img{
     margin-left: 8%;
