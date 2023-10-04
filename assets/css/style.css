@@ -106,14 +106,15 @@ header{
 }
 .about p{
     padding:5px 300px;
+    font-weight: normal;
 }
 .about button{
     font-size: 18px;
     color: #fff;
     margin-top: 10px;
-    border-radius: 7px;
+    border:2px solid #fff;
     padding: 10px 100px;
-    background-color: #022d7c;
+    background:#022d7c;
 
 }
 /* /about us section end */
