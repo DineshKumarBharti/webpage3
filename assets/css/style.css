@@ -116,9 +116,47 @@ header{
     border:2px solid #fff;
     background:#022d7c;
     border-radius: 5px;
-
 }
 /* /about us section end */
+
+/* service section start */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper,.service .lover{
+    display: flex;
+    align-items: center;
+}
+.service .image, .service content {
+    width: 50%;
+}
+.service .image img{
+    width: 570px;
+    height: 500px;
+}
+.service .content h3{
+    font-weight: 900;
+    text-align: center;
+    font-size: xx-large;
+}
+.service .content p{
+    font-size: larger;
+    font-weight: 200;
+}
+/* /service section end */
+/* footer section start */
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background: #022d7c;
+    text-align: center;
+    padding: 20px 100px;
+}
+/* /footer section end */
+
 
 
 
