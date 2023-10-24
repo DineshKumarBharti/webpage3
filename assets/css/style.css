@@ -24,7 +24,7 @@ header{
     color: #fff;
     display: flex;
     padding: 0px 100px;
-    /* text-align: center; */
+    text-align: center;
     justify-content: space-between;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
     url(../img/Industrial.jpg);
@@ -33,7 +33,7 @@ header{
 .banner main h1{
     margin-top: 60px;
     padding: 100px ;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: normal;
 }
 .banner h1 span{
@@ -43,10 +43,10 @@ header{
 }
 .banner aside {
     padding: 20px  ;
-    margin:60px 0px;
-/* padding: 0px 30px; */
+    margin: 80px 21px;
+    /* padding: 0px 30px; */
     border-radius: 7px;
-    /* line-height:50px; */
+    line-height:50px;
     text-align: center;
     background-color:#022d7c;
 }
@@ -55,8 +55,8 @@ header{
 .banner aside button
 {
     width: 100%;
-    margin:7px;
-    height: 50px;
+    /* margin:7px; */
+    height: 35px;
 }
 /*/banner section end */
 
@@ -121,7 +121,7 @@ header{
 /* /about us section end */
 
 /* service section start */
-.service .table{
+.service{
     width: 100%;
     height: auto;
     padding: 0px 100px;
@@ -171,10 +171,8 @@ header{
  }
  .banner{
     padding: 10px;
-    /* flex-direction: column; */
- }
- .banner aside input[type], .banner aside textarea, .banner aside button {
-    margin: 5px;
+    flex-direction: column;
+    height: auto;
 }
 .feature{
     flex-direction: column;
@@ -182,7 +180,7 @@ header{
     align-items: center;
 }
 .feature div{
-    margin: 2px;
+    margin: 0px;
     width: auto;
 }
 .feature div img {
@@ -212,6 +210,19 @@ header{
 .service .image ,.service .content {
     width: auto;
     padding-left: 0px !important;
+}
+}
+@media screen and(max-width:768px) {
+section{
+    /* margin-left: 20px; */
+
+    flex-direction: column;
+}
+.banner aside {
+    margin-left: 20px;
+}
+.banner h1 span{
+    font-weight: 10px;
 }
 }
 /* /Media Query Section End */
