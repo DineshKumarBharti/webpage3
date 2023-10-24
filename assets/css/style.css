@@ -6,7 +6,7 @@
 
 /* header section start */
 header{
-    width: 100vw;
+    width: 100%;
     height: 50px;
     color: #fff;
     display: flex;
@@ -19,21 +19,21 @@ header{
 
 /*banner section start */
 .banner{
-    width: 100%;
+    width:100%;
     height: 600px;
     color: #fff;
     display: flex;
     padding: 0px 100px;
-    text-align: center;
+    /* text-align: center; */
     justify-content: space-between;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
     url(../img/Industrial.jpg);
     background-size: cover;
 }
-.banner h1{
+.banner main h1{
     margin-top: 60px;
     padding: 100px ;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: normal;
 }
 .banner h1 span{
@@ -95,7 +95,7 @@ header{
 .about{
     width: 100%;
     height:auto;
-    padding: 60px;
+    padding: 60px 300px;
     color:#fff;
     text-align: center;
     background-color: #022d7c;
@@ -105,7 +105,8 @@ header{
     margin: 7px;
 }
 .about p{
-    padding:5px 300px;
+    padding: 18px;
+    /* padding:5px 30px; */
     font-weight: normal;
 }
 .about button{
@@ -120,7 +121,7 @@ header{
 /* /about us section end */
 
 /* service section start */
-.service{
+.service .table{
     width: 100%;
     height: auto;
     padding: 0px 100px;
@@ -156,6 +157,64 @@ footer{
     padding: 20px 100px;
 }
 /* /footer section end */
+
+/* Media Query Section Start */
+@media screen and (max-width:992px) {
+header{
+    padding: 10px;
+ }
+ header h2{
+    font-size: 20px;
+ }
+ header span{
+    text-wrap: nowrap;
+ }
+ .banner{
+    padding: 10px;
+    /* flex-direction: column; */
+ }
+ .banner aside input[type], .banner aside textarea, .banner aside button {
+    margin: 5px;
+}
+.feature{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature div{
+    margin: 2px;
+    width: auto;
+}
+.feature div img {
+    margin-left: 12%;
+    width: 643px;
+    font-weight: 400;
+    height: 250px;
+}
+.about{
+    padding: 20px;
+    margin-left: 100px;
+    width: auto;
+    
+}
+.service{
+    padding: 10px;
+}
+.service .content p {
+    font-weight: 14px;
+    margin-left: 80px;
+}
+.service .upper, .service .lover{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service .image ,.service .content {
+    width: auto;
+    padding-left: 0px !important;
+}
+}
+/* /Media Query Section End */
 
 
 
